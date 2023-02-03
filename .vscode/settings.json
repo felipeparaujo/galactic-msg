@@ -1,0 +1,11 @@
+{
+    "cmake.configureEnvironment": {
+        "PICO_SDK_FETCH_FROM_GIT": "ON",
+        "PICO_SDK_FETCH_FROM_GIT_PATH": "${workspaceFolder}/pico-sdk",
+        "PIMORONI_PICO_FETCH_FROM_GIT": "ON",
+        "PIMORONI_PICO_FETCH_FROM_GIT_PATH": "${workspaceFolder}/pimoroni-pico",
+        "PICO_BOARD": "pico_w",
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/build"
+}
